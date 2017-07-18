@@ -9,6 +9,6 @@ public class Customer {
         //onlineStore.askCustomerToBuy();
         onlineStore.showItem();
         onlineStore.getInputFromCustomer();
-
+        System.out.println("minijavaproject.Customer.main()");
     }
 }
