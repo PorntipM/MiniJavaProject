@@ -7,7 +7,7 @@ public class OnlineShoppingStore {
 
     ArrayList<Item> items;
     ArrayList<Item> cart;
-
+   
     public OnlineShoppingStore() {
         cart = new ArrayList<>();
         items = new ArrayList<>();
@@ -57,6 +57,10 @@ public class OnlineShoppingStore {
         for (Item item : items) {
             System.out.println(item.id + ":" + item.name + "(" + item.price + ")");
         }
+    }
+    
+    public void testGitHub(){
+        
     }
 
 }
